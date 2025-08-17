@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            border: 5px solid #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .tagline {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        section {
+            margin-bottom: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #e0f7fa;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- 替换为你的照片 -->
+        <img src="生活照.jpg" alt="my photo" class="profile-img">
+        <h1>张雨柔--Yurou Zhang--Amy</h1>
+        <p class="tagline">Robotics Researcher | Machine Learning Engineer | Robot Arm Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>I am a robotics researcher passionate about developing intelligent robotic systems, 
+            with specialized experience in machine learning for robotic arm control. 
+            My work focuses on deep learning, physics informed neural networks, computer vision, 
+            and motion planning to enhance robotic precision and autonomy.</p>
+
+        <p>Currently, I am researching Robot dynamics as the physics information at Capital Normal University.</p>
+      </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span class="skill">Robotics: ROS, MoveIt, Gazebo, URDF, robotic arm kinematics/dynamics</span>
+            <span class="skill">Machine Learning: PyTorch, TensorFlow, RL (PPO, DDPG), imitation learning</span>
+            <span class="skill">Computer Vision: OpenCV, YOLO, depth estimation, 6D pose detection</span>
+            <span class="skill">Programming: Python, C++, MATLAB</span>
+            <span class="skill">Hardware: UR arms, 3D printer, RealSense cameras</span>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Projects & Research</h2>       
+        <h3>Design and Implementation of Intelligent PTZ System Based on Deep Reinforcement Learning - Project Leader </h3>
+        <ul>
+            <li>Designed and implemented a smart PTZ system capable of autonomous target tracking. 
+                Involved deep reinforcement learning, computer vision, kinematic modeling, and trajectory planning. 
+                Enhanced team communication skills, programming proficiency, and problem-solving capabilities.</li>
+        </ul>
+        
+        <h3>Design and Implementation of 3D-Printed Multi-Functional Robotic Arm System - Project Leader</h3>
+        <ul>
+            <li>Developed a complete robotic arm structure and control system using 3D printing technology. 
+                Covered robotic kinematics, dynamics, and robot communication protocols. 
+                Strengthened mechanical arm expertise while improving project management and applied knowledge implementation.</li>
+        </ul>
+        
+        <h3>Gaze-Based Intention Recognition System for Critically Ill Patients - Team Leader & Developer</h3>
+        <ul>
+            <li>Created a vision-based system to interpret patients' eye movements and infer intentions, 
+                assisting them in completing daily tasks. 
+                Incorporated embedded system communication and computer vision technologies. 
+                Focused on practical healthcare applications of robotics.</li>
+        </ul>
+
+        <h3>Integrated Robotic System Implementation - Developer</h3>
+        <ul>
+            <li>Engineered a multi-subsystem compound robot featuring coordinated head, 
+                arm, chassis, and voice modules. Successfully integrated a fully functional robotic system, 
+                significantly improving coding skills and cross-team collaboration abilities.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <h3>electronic information engineering bachelor's degree - Capital Normal University (2019-2023)</h3>
+        <p>Advanced Mathematics, Linear Algebra, Probability and Mathematical Statistics, C Language Programming, 
+            Signals and Systems, Fundamentals of Digital Electronics, Fundamentals of Analog Electronics, 
+            Digital Signal Processing, Digital Image Processing, Principles of Communication.</p>
+        
+        <h3>Communications and Information Systems master's degree - Capital Normal University (2023-2026)</h3>
+        <p>Research Interests: Robot Control and Planning.</p>
+        <p>Research Focus: Research on Trajectory Planning and Safe Control of Robotic Arms Based on Dynamics Guidance.</p>
+        <p>Major Courses: Mathematical Foundations of Artificial Intelligence, Neural Networks and Deep Learning, Stochastic Processes, etc.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Let’s Collaborate</h2>
+        <p>E-mail: <a href="mailto:yurouzyr@163.com">yurouzyr@163.com</a></p>
+        <p>call: 13366449679</p>
+        
+        <div class="social-links">
+            <a href="https://github.com/zhangyurou" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Zhang Yuruo's personal homepage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
